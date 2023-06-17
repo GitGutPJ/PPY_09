@@ -22,8 +22,6 @@ def calculate(filename):
         sum_of_letters += letters
         sum_of_articles += 1
     if sum_of_articles > 0:
-        print(sum_of_letters)
-        print(sum_of_articles)
         return sum_of_letters/sum_of_articles
     return 0
 print(f"Srednia liczba liter/artykul: {calculate('small.txt')}")
